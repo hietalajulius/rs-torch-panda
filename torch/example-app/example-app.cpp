@@ -3,7 +3,6 @@
 #include <iostream>
 #include <memory>
 #include<chrono>
-#include <librealsense2/rs.hpp> // Include RealSense Cross Platform API
 
 int main(int argc, const char* argv[]) {
   if (argc != 2) {
@@ -24,12 +23,6 @@ int main(int argc, const char* argv[]) {
     float predictions = 0;
     std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
 
-    rs2::pipeline pipe;
-
-    // Start streaming with default recommended configuration
-    // The default video configuration contains Depth and Color streams
-    // If a device is capable to stream IMU data, both Gyro and Accelerometer are enabled by default
-    pipe.start();
 
     while (true) {
       std::vector<torch::jit::IValue> inputs;
