@@ -1,0 +1,7 @@
+<library path="lib/libcontroller_test">
+  <class name="controller_test/CartesianPoseExampleController" type="controller_test::CartesianPoseExampleController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on cartesian poses to demonstrate correct usage
+    </description>
+  </class>
+</library>

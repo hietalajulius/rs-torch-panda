@@ -1,0 +1,8 @@
+prefix=/home/julius/robotics/franka_ws/devel
+
+Name: simple_test
+Description: Description of simple_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

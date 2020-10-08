@@ -1,0 +1,8 @@
+prefix=/home/julius/robotics/franka_ws/devel
+
+Name: own_example_controllers
+Description: Description of own_example_controllers
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

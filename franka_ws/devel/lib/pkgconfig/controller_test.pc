@@ -1,0 +1,8 @@
+prefix=/home/julius/robotics/franka_ws/devel
+
+Name: controller_test
+Description: Description of controller_test
+Version: 0.7.0
+Cflags: -I/home/julius/robotics/franka_ws/devel/include -I/home/julius/robotics/franka_ws/src/controller_test/include -I/opt/ros/melodic/include/libfranka
+Libs: -L${prefix}/lib -lcontroller_test /opt/ros/melodic/lib/libfranka.so.0.8.0
+Requires: controller_interface dynamic_reconfigure eigen_conversions franka_hw geometry_msgs hardware_interface tf tf_conversions message_runtime pluginlib realtime_tools roscpp
